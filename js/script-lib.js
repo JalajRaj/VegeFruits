@@ -3,12 +3,12 @@ var deliveryCharge=10;
 var disc=1;
 cardCount();
 function initMap(){
-	map[1]="Amul Cow Milk,30,27,10%,Amul Milk";
-	map[2]="Amul Full Cream Milk,60,60,,Milk";
-	map[3]="Mali Panner,200,160,20%,Panner";
-	map[4]="Kesar Shrikhand,60,60,,Shrikhand";
-	map[5]="Amul Chees,50,50,,Cheesh";
-	map[6]="Amul Butter Milk,12,12,,Butter Milk";
+	map[1]="carrot,30,27,10%,carrot";
+	map[2]="Apple,60,60,,Apple";
+	map[3]="Onion,40,32,20%,Onion";
+	map[4]="Chilli,60,60,,Chilli";
+	map[5]="Tamato ,25,25,,Tamato";
+	map[6]="Capsicum,12,12,,Capsicum";
 	
 }
 

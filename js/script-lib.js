@@ -5,11 +5,12 @@ cardCount();
 function initMap(){
 	map[1]="Veg Basket,400,360,10%,Veg Basket";
 	map[2]="Veg Big Basket,500,450,10%,Veg Big Basket";
-	map[3]="1Kg Carrot,40,32,20%,carrot";
-	map[4]="1kg Onion,35,35,,Onion";
-	map[5]="Tamato ,25,25,,Tamato";
-	map[6]="Capsicum,12,12,,Capsicum";
+	map[3]="1Kg Carrot,60,60,,carrot";
+	map[4]="1kg Onion,30,30,,Onion";
+	map[5]="1kg Tamato ,30,30,,Tamato";
+	map[6]="1kg Capsicum,50,50,,Capsicum";
 	map[7]="100gm Chilli,10,10,,Chilli";
+	map[8]="1kg Lasun,160,160,,Chilli";
 	
 }
 

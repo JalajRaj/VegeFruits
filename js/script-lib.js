@@ -3,12 +3,13 @@ var deliveryCharge=10;
 var disc=1;
 cardCount();
 function initMap(){
-	map[1]="carrot,30,27,10%,carrot";
-	map[2]="Apple,60,60,,Apple";
-	map[3]="Onion,40,32,20%,Onion";
-	map[4]="Chilli,60,60,,Chilli";
+	map[1]="Veg Basket,400,360,10%,Veg Basket";
+	map[2]="Veg Big Basket,500,450,10%,Veg Big Basket";
+	map[3]="1Kg Carrot,40,32,20%,carrot";
+	map[4]="1kg Onion,35,35,,Onion";
 	map[5]="Tamato ,25,25,,Tamato";
 	map[6]="Capsicum,12,12,,Capsicum";
+	map[7]="100gm Chilli,10,10,,Chilli";
 	
 }
 

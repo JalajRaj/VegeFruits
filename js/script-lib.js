@@ -10,7 +10,10 @@ function initMap(){
 	map[5]="1kg Tamato ,30,30,,Tamato";
 	map[6]="1kg Capsicum,50,50,,Capsicum";
 	map[7]="100gm Chilli,10,10,,Chilli";
-	map[8]="1kg Lasun,160,160,,Chilli";
+	map[8]="1kg Lasun,160,160,,Lasun";
+	map[9]="Watermelon,160,160,,watermelon";
+	map[10]="1kg Grapes,50,50,,Grapes";
+	map[11]="1 Dozen Banana,40,40,,Banana";
 	
 }
 

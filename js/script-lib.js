@@ -5,7 +5,7 @@ cardCount();
 function initMap(){
 	map[1]="Veg Basket,400,360,10%,Veg Basket";
 	map[2]="Veg Big Basket,500,450,10%,Veg Big Basket";
-	map[3]="1Kg Carrot,60,60,,carrot";
+	map[3]="1Kg Carrot,50,50,,carrot";
 	map[4]="1kg Onion,30,30,,Onion";
 	map[5]="1kg Tamato ,30,30,,Tamato";
 	map[6]="1kg Capsicum,50,50,,Capsicum";
@@ -14,6 +14,13 @@ function initMap(){
 	map[9]="Watermelon,160,160,,watermelon";
 	map[10]="1kg Grapes,50,50,,Grapes";
 	map[11]="1 Dozen Banana,40,40,,Banana";
+	map[12]="10kg Onion,300,250,17%,Onion";
+	map[13]="1kg Flower ,50,50,,Flower ";
+	map[14]="1kg cabbage,30,30,,cabbage";
+	map[15]="1kg Bhindi,50,50,,Bhindi";
+	map[16]="1kg Loki,40,40,,Loki";
+	map[17]="1kg Kakdi,40,40,,Kakdi";
+	map[18]="1kg Beetroot,40,40,,Beetroot";
 	
 }
 

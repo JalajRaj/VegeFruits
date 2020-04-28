@@ -108,21 +108,10 @@
     			</div>
     		</div>
     		
-    	<!-- 	<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
-    				<div class="cart-total mb-3">
-    					<h3>Coupon Code</h3>
-    					<p>Enter your coupon code if you have one</p>
-  						<form action="#" class="info">
-	              <div class="form-group">
-	              	<label for="">Coupon code</label>
-	                <input type="text" class="form-control text-left px-3" placeholder="">
-	              </div>
-	            </form>
-    				</div>
-    				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Apply Coupon</a></p>
-    		</div> -->
+    	<div class="row">
+				<div class="col-sm-6">
     			
-    			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
+    			<div class="cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
     					<h3>Cart Totals</h3>
     					<p class="d-flex">
@@ -145,11 +134,11 @@
     				</div>
     				<!-- <p><a href="checkout.html" class="btn btn-primary py-3 px-4">Proceed to Checkout</a></p> -->
     			</div>
-    			
-    			
+    			</div>
+    			<div class="col-sm-6">
     		<div class="row justify-content-end">
     		
-    		          <div class="col-xl-7 ftco-animate">
+    		          <div class="col-xl-12 ftco-animate">
 						<form action="#" class="billing-form">
 							<h3 class="mb-4 billing-heading">Billing Details</h3>
 	          	<div class="row align-items-end">
@@ -172,8 +161,8 @@
 		            		<div class="select-wrap">
 		                  <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 		                  <select name="" id="sector" class="form-control">
-		                  	<option value="">Ulwe, Navi Mumbai</option>
-		                    <option value="">Seawoods, Navi Mumbai</option> 
+		                  	<option value="Ulwe, Navi Mumbai">Ulwe, Navi Mumbai</option>
+		                    <option value="Seawoods, Navi Mumbai">Seawoods, Navi Mumbai</option> 
 		                  </select>
 		                </div>
 		            	</div>
@@ -194,13 +183,13 @@
 		            <div class="col-md-6">
 		            	<div class="form-group">
 	                	<label for="towncity">Town / City *</label>
-	                  <input type="text" id="city" class="form-control" placeholder="Ulwe" >
+	                  <input type="text" id="city" class="form-control" value="Ulwe" placeholder="Ulwe" >
 	                </div>
 		            </div>
 		            <div class="col-md-6">
 		            	<div class="form-group">
 		            		<label for="postcodezip">Pincode / ZIP *</label>
-	                  <input type="text" id="pincode" class="form-control" placeholder="410206" >
+	                  <input type="text" id="pincode" class="form-control" value="410206" placeholder="410206" >
 	                </div>
 		            </div>
 		            <div class="w-100"></div>
@@ -229,7 +218,7 @@
 	          </form><!-- END -->
 					</div>
 					
-    			
+    			</div>
     			
     			 	<div class="col-md-12">
 	          		<div class="cart-detail p-3 p-md-4">
@@ -263,7 +252,7 @@
 										</div>
 									</div>
 									<!-- <p><a href="#"class="btn btn-primary py-3 px-4">Place an order</a></p> -->
-									<input type="submit" value="Place an order" class="btn btn-primary py-3 px-5" onclick="return submitData()"">
+									<input type="submit" value="Place an order" class="btn btn-primary py-3 px-5" onclick="return placeOrder()"">
 								</div>
 	          	</div>
 	          	

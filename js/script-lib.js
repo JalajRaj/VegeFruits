@@ -1,6 +1,6 @@
 var map = {};
-var deliveryCharge=10;
-var disc=1;
+var deliveryCharge=0;
+var disc=0;
 var context = "https://m8gohcb5gc.execute-api.ap-south-1.amazonaws.com/dev/milk/";
 cardCount();
 function initMap(type){
@@ -64,7 +64,7 @@ function calcuateAmt(obj,j,orgValue){
 	mainTotal();
 	return false;
 }
-
+var finalOrderDetails="";
 function mainTotal(){
 	var sum = 0;
 	$.each($(".total"),function(i,j){
@@ -75,7 +75,7 @@ function mainTotal(){
 	$("#deliveryCharge").html(deliveryCharge + " Rs");
 	$("#disc").html(disc + " Rs")
 	$("#mainTotal").html(parseInt(sum) + parseInt(deliveryCharge) - parseInt(disc) + " Rs");
-	localStorage.setItem("pz",sum+","+$("#mainTotal").html());
+	finalOrderDetails = sum+","+$("#mainTotal").html();
 }
 
 function removeProduct(j){
@@ -131,7 +131,7 @@ function checkOut(){
 }
 
 function initCheckOut(){
-	var iteams  = localStorage.getItem("pz");
+	var iteams  = finalOrderDetails;
 	$("#finalTotal").html(iteams.split(',')[0]);
 	$("#deliveryCharge").html(deliveryCharge);
 	$("#disc").html(disc);
@@ -140,7 +140,8 @@ function initCheckOut(){
 }
 
 function placeOrder(){
-	var iteams  = localStorage.getItem("pz");
+	intcheckout();
+	var iteams  = finalOrderDetails;
 	var array = {};
 	array["userName"]=$("#fname").val() + " "+$("#lname").val();
 	array["address"]=$("#sector").val()+ ", "+$("#apartment").val()+ ", "+$("#streetAddress").val()+", "+$("#city").val()+ ", "+$("#pincode").val();
